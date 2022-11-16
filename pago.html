@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="widht=device-width, initial-scale=1.0">
+    <title>TehVuska - Pago</title>
+    <link rel="icon" href="/icon/indexicon.ico">
+    <link rel="stylesheet" href="./css/pago.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <h2>Forms de pago</h2>
+        <form action="" method="post">
+            <!--Información start cuenta-->
+            <h4>Cuenta</h4>
+            <div class="input_group">
+                <div class="input_box">
+                    <input type="text" placeholder="Nombre completo" required class="name">
+                    <i class="fa fa-user icon"></i>
+                </div>
+                <div class="input_box">
+                    <input type="text" placeholder="Nombre en tarjeta" required class="name">
+                    <i class="fa fa-user icon"></i>
+                </div>
+            </div>
+            <div class="input_group">
+                <div class="input_box">
+                    <input type="email" placeholder="Correo electronico" required class="name">
+                    <i class="fa fa-envelope icon"></i>
+                </div>
+            </div>
+            <div class="input_group">
+                <div class="input_box">
+                    <input type="text" placeholder="Localidad" required class="name">
+                    <i class="fa fa-map-marker icon" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="input_group">
+                <div class="input_box">
+                    <input type="text" placeholder="Ciudad" required class="name">
+                    <i class="fa fa-institution icon"></i>
+                </div>
+            </div>
+
+            <!--Información de cuenta final-->
+
+            <!--DOB & Empiece genero-->
+
+            <div class="input_group">
+                <div class="input_box">
+                    <h4>Fecha de nacimiento</h4>
+                    <input type="text" placeholder="DD" required class="dob">
+                    <input type="text" placeholder="MM" required class="dob">
+                    <input type="text" placeholder="YYYY" required class="dob">
+                </div>
+                <div class="input_box">
+                    <h4>Género</h4>
+                    <input type="radio" name="gender" class="radio" id="b1" checked>
+                    <label for="b1">Hombre</label>
+                    <input type="radio" name="gender" class="radio" id="b2">
+                    <label for="b2">Mujer</label>
+                </div>
+            </div>
+            <!--DOB & Termina genero-->
+
+
+            <!--Detalles de pago-->
+
+            <div class="input_group">
+                <div class="input_box">
+                    <h4>Detalles de pago</h4>
+                    <input type="radio" name="pagar" class="radio" id="bc1" checked>
+                    <label for="bc1"></span>
+                        <i class="fa fa-cc-visa"></i>Tarjeta credito</span></label>
+                    <input type="radio" name="pagar" class="radio" id="bc2">
+                    <label for="bc2"></span>
+                        <i class="fa fa-cc-paypal"></i>Paypal</span></label>
+                </div>
+            </div>
+            <div class="input_group">
+                <div class="input_box">
+                    <input type="tel" name="" class="name" placeholder="Número tarjeta credito 1111-2222-3333-4444" required>
+                    <i class="fa fa-credit-card icon"></i>
+                </div>
+            </div>
+            <div class="input_group">
+                <div class="input_box">
+                    <input type="tel" name="" class="name" placeholder="Tarjeta CVC 632" required>
+                    <i class="fa fa-user icon"></i>
+                </div>
+            </div>
+            <div class="input_group">
+                <div class="input_box">
+                    <input type="number" placeholder="Exp mes" required class="name">
+                    <i class="fa fa-calendar icon" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="input_group">
+                <div class="input_box">
+                    <input type="number" placeholder="Exp mes" required class="name">
+                    <i class="fa fa-calendar icon" aria-hidden="true"></i>
+                </div>
+            </div>
+            <div class="input_box">
+                    <input type="number" placeholder="Cantidad" required class="name">
+                    <i class="fa fa-money icon" aria-hidden="true"></i>
+            </div>
+            <!--Detalles de pago termina-->
+            <div class="input_group">
+                <div class="input_box">
+                    <button type="submit">Paga ahora</button>
+                </div>
+            </div>
+            
+        </form>
+    </div>
+</body>
+
+</html>
